@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="play">
+            <div class="player box">
+                <div id="player-name" class="name">Гравець</div>
+                <div id="player-score" class="score">0</div>
+                <div id="player-num" class="num">0</div>
+                <img id="player-card" class="card" alt="card" src="cards/red_joker.svg">
+            </div>
+            <div class="comp box">
+                <div id="comp-name" class="name">Комп'ютер</div>
+                <div id="comp-score" class="score">0</div>
+                <div id="comp-num" class="num">0</div>
+                <img id="comp-card" class="card" alt="card" src="cards/black_joker.svg">
+            </div>
+        </div>
+        <div class="box" id="button">
+            <button onclick="playRound()">PLAY!</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
